@@ -32,13 +32,13 @@ Promise.all([
     // Expose the API ready callback globally
     window.onYouTubeIframeAPIReady = function() {
         player = new YT.Player('banner-video-background', {
-            videoId: '8AhDQmZU_RU',
+            videoId: 'fVvxDHFhihs',
             playerVars: {
                 'autoplay': 1,
                 'controls': 0,
                 'mute': 1,
                 'loop': 1,
-                'playlist': '8AhDQmZU_RU',
+                'playlist': 'fVvxDHFhihs',
                 'showinfo': 0,
                 'rel': 0,
                 'enablejsapi': 1,
@@ -383,3 +383,4 @@ function initAnimateData() {
         observer.observe(this);
     });
 }
+
